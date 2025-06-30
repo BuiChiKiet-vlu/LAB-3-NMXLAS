@@ -104,8 +104,8 @@ data = iio.imread("Tên file hình ảnh")
 rotate = nd.rotate(data, 45)</pre>
 ----------------------------------------------------------------------------------------------------------------
 
-Cấu Trúc File
-XLB3/
+## Cấu Trúc File
+<pre>
 ├── exercise/
 │   ├── colorful-ripe-tropical-fruits.jpg
 │   ├── pagoda.jpg
@@ -116,12 +116,12 @@ XLB3/
 ├── BAITAP3.ipynb 
 ├── BAITAP4.ipynb          
 ├── BAITAP5.ipynb 
-├── README.md
+├── README.md </pre>
 ----------------------------------------------------------------------------------------------------------------
 
 Hướng dẫn
 1. Cài đặt môi trường
-pip install pillow numpy matplotlib imageio
+<pre>pip install pillow numpy matplotlib imageio</pre>
 2. Chạy notebook
 - Mở Jupyter Notebook trên VSCode
 - Nếu có lỗi không tìm thấy ảnh, đảm bảo file ảnh đã được đặt đúng vị trí
