@@ -11,19 +11,19 @@
 ----------------------------------------------------------------------------------------------------------------
 Bài lab này nhằm mục đích thực hiện các phép biến đổi hình học trong ảnh – là những thao tác cơ bản, nền tảng trong lĩnh vực xử lý ảnh số. Các biến đổi này giúp:
 
-*Chọn đối tượng trong ảnh
-*Tịnh tiến ảnh
-*Thay đổi kích thước ảnh
-*Xoay ảnh
-*Biến đổi cực
+### **Chọn đối tượng trong ảnh**
+### **Tịnh tiến ảnh**
+### **Thay đổi kích thước ảnh**
+### **Xoay ảnh**
+### **Biến đổi cực**
 ----------------------------------------------------------------------------------------------------------------
-Python: Ngôn ngữ chính
-NumPy: Xử lý ảnh dưới dạng mảng số học
-ImageIO: Đọc file ảnh với định dạng hiện đại
-Matplotlib: Hiển thị ảnh trực quan
-Scipy-Ndimage: Xử lý và biến đổi ảnh
+- Python: Ngôn ngữ chính
+- NumPy: Xử lý ảnh dưới dạng mảng số học
+- ImageIO: Đọc file ảnh với định dạng hiện đại
+- Matplotlib: Hiển thị ảnh trực quan
+- Scipy-Ndimage: Xử lý và biến đổi ảnh
 
-Chi tiết các phép biến đổi & công thức
+## **Chi tiết các phép biến đổi & công thức**
 ----------------------------------------------------------------------------------------------------------------
 Phép chọn đối tượng trong ảnh (Object Selection/Image Segmentation)
 
