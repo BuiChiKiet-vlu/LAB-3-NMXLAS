@@ -104,7 +104,7 @@ data = iio.imread("Tên file hình ảnh")
 rotate = nd.rotate(data, 45)</pre>
 ----------------------------------------------------------------------------------------------------------------
 
-## Cấu Trúc File
+## **Cấu Trúc File**
 <pre>
 ├── exercise/
 │   ├── colorful-ripe-tropical-fruits.jpg
@@ -119,7 +119,7 @@ rotate = nd.rotate(data, 45)</pre>
 ├── README.md </pre>
 ----------------------------------------------------------------------------------------------------------------
 
-Hướng dẫn
+## **Hướng dẫn**
 1. Cài đặt môi trường
 <pre>pip install pillow numpy matplotlib imageio</pre>
 2. Chạy notebook
@@ -127,5 +127,5 @@ Hướng dẫn
 - Nếu có lỗi không tìm thấy ảnh, đảm bảo file ảnh đã được đặt đúng vị trí
 ----------------------------------------------------------------------------------------------------------------
 
-Tài liệu tham khảo
-Slide bài giảng Nhập môn Xử lý ảnh số - Văn Lang University
+## **Tài liệu tham khảo**
+- Slide bài giảng Nhập môn Xử lý ảnh số - Văn Lang University
