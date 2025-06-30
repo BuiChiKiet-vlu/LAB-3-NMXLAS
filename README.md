@@ -25,21 +25,15 @@ Bài lab này nhằm mục đích thực hiện các phép biến đổi hình h
 
 ## **Chi tiết các phép biến đổi & công thức**
 ----------------------------------------------------------------------------------------------------------------
-Phép chọn đối tượng trong ảnh (Object Selection/Image Segmentation)
+**Phép chọn đối tượng trong ảnh (Object Selection/Image Segmentation)**
 
-Mục đích:
+* Mục đích:
 - Tách vùng quan tâm ra khỏi nền
 - Tiền xử lý cho các bước phân tích sau
 - Loại bỏ nhiễu, giảm lỗi
 
-Code chính
-'''data = iio.imread("Tên file hình ảnh")
-bmg = data[y1:y2, x1:x2]
-[y1:y2, x1:x2] là giá trị của vùng bạn muốn cắt
-Ví dụ: y1 = 100, y2 = 300, x1 = 200, x2 = 400
-bmg = data[100:300, 200:400]
-y1, y2 là hàng từ 100 đến 299 
-x1, x2 là cột từ 200 đến 399'''
+* Code chính
+pre> ```python data = iio.imread("Tên file hình ảnh") bmg = data[y1:y2, x1:x2] # [y1:y2, x1:x2] là giá trị của vùng bạn muốn cắt # Ví dụ: y1 = 100 y2 = 300 x1 = 200 x2 = 400 bmg = data[100:300, 200:400] # y1, y2 là hàng từ 100 đến 299 # x1, x2 là cột từ 200 đến 399 ``` </pre>
 ----------------------------------------------------------------------------------------------------------------
 Phép tịnh tiến ảnh (Image Translation)
 
