@@ -33,13 +33,13 @@ Mục đích:
 - Loại bỏ nhiễu, giảm lỗi
 
 Code chính
-* data = iio.imread("Tên file hình ảnh")
-* bmg = data[y1:y2, x1:x2]
+'''data = iio.imread("Tên file hình ảnh")
+bmg = data[y1:y2, x1:x2]
 [y1:y2, x1:x2] là giá trị của vùng bạn muốn cắt
 Ví dụ: y1 = 100, y2 = 300, x1 = 200, x2 = 400
 bmg = data[100:300, 200:400]
 y1, y2 là hàng từ 100 đến 299 
-x1, x2 là cột từ 200 đến 399
+x1, x2 là cột từ 200 đến 399'''
 ----------------------------------------------------------------------------------------------------------------
 Phép tịnh tiến ảnh (Image Translation)
 
